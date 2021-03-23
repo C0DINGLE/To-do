@@ -42,11 +42,11 @@ body
     transform: translateY(-2rem);
 }
 
-.cards:hover ~ .card,
+/* .cards:hover ~ .card,
 .card:focus-within ~ .card
 {
     transform: translateX(calc(var(--distance) * -1));
-}
+} */
 
 .card p
 {
