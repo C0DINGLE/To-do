@@ -42,22 +42,7 @@ body
     transform: translateY(-2rem);
 }
 
-/* .cards:hover ~ .card,
-.card:focus-within ~ .card
+.card:hover ~ .card
 {
-    transform: translateX(calc(var(--distance) * -1));
-} */
-
-.card p
-{
-    padding: 50px 0 0 0;
-    margin: 0 auto;
-    text-align: center;
-    font-size: 18px;
+    transform: translateX(calc(var(--distance)*-1));
 }
-
-/* .card .logo
-{
-    width
-} */
-
