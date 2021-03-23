@@ -1,117 +1,46 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,
-        initial-scale=1.0">
-    <title>To-do</title>
+    <title>To-Do App</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    <div class="cards">
-        <div class="card">
-            <h2><a href="#">To Do 1</a></h2>
-            <ul>
-                <li>
-                    <label>
-                    <input type ="checkbox" name="">
-                    <p>Meditate</p>
-                    <span></span>
-                  </label>
-                </li>
-                <li>
-                    <label>
-                    <input type ="checkbox" name="">
-                    <p>Meditate</p>
-                    <span></span>
-                  </label>
-                </li>
-                <li>
-                    <label>
-                    <input type ="checkbox" name="">
-                    <p>Meditate</p>
-                    <span></span>
-                  </label>
-                </li>
-                <li>
-                    <label>
-                    <input type ="checkbox" name="">
-                    <p>Meditate</p>
-                    <span></span>
-                  </label>
-                </li>
-            </ul>
-        </div>
-        <div class="card">
-            <h2><a href="#">DAILY</a></h2>
-            <ul>
-                <li>
-                    <label>
-                    <input type ="checkbox" name="">
-                    <p>Pray</p>
-                    <span></span>
-                  </label>
-                </li>
-                <li>
-                    <label>
-                    <input type ="checkbox" name="">
-                    <p>Homework</p>
-                    <span></span>
-                  </label>
-                </li>
-                <li>
-                    <label>
-                    <input type ="checkbox" name="">
-                    <p>Log in diary</p>
-                    <span></span>
-                  </label>
-                </li>
-                <li>
-                    <label>
-                    <input type ="checkbox" name="">
-                    <p>Exercise</p>
-                    <span></span>
-                  </label>
-                </li>
-            </ul>
-        </div>
-        <div class="card">
-            <h2><a href="#">Study</a></h2>
-            <ul>
-                <li>
-                    <label>
-                    <input type ="checkbox" name="">
-                    <p>DBMS</p>
-                    <span></span>
-                  </label>
-                </li>
-                <li>
-                    <label>
-                    <input type ="checkbox" name="">
-                    <p>Networking</p>
-                    <span></span>
-                  </label>
-                </li>
-                <li>
-                    <label>
-                    <input type ="checkbox" name="">
-                    <p>Statistics</p>
-                    <span></span>
-                  </label>
-                </li>
-                <li>
-                    <label>
-                    <input type ="checkbox" name="">
-                    <p>Personal Develeopment</p>
-                    <span></span>
-                  </label>
-                </li>
-            </ul>
-        </div>
+    <div class="Menu">
+        <ul>
+            <li class="active">
+                <a href="#"><i class="fa fa-clock-o" aria-hidden="true"></i></a> Pending Tasks
+            </li>
+            <li>
+                <a href="#"><i class="fa fa-check-circle" aria-hidden="true"></i></a> Completed Tasks
+            </li>
+        </ul>
     </div>
+    <div class='todo'>
+        <header>My TO-DO List</header>
+
+        <div class="do">
+            <input type="checkbox" id="do1">
+            <label for="do1">
+          <span class = "label">Study</span>
+        </label>
+        </div>
+        <div class="do">
+            <input type="checkbox" id="do2">
+            <label for="do2">
+          <span class = "label">Exercise</span>
+        </label>
+        </div>
+        <div class="do">
+            <input type="checkbox" id="do3">
+            <label for="do3">
+          <span class = "label">Meditate</span>
+        </label>
+        </div>
+        <footer></footer>
+        </section>
 </body>
 
 </html>
